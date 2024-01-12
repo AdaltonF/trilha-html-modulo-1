@@ -7,55 +7,99 @@
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h1>Módulo 1 - Primeiros Passos com <abbr title="HyperText Markup Language">HTML</abbr></h1>
+    <p><i>Feito por Adalton de Sena Almeida Filho para DIO.</i></p>
     <hr />
-
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h2 id="indice">Índice</h2>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#historia">Breve História sobre a origem do HTML.</a></li>
+        <li><a href="#diferenca">O que são e qual é diferença entre <i>Clients</i> e <i>Servers</i>?</a></li>
+        <li><a href="#html-basico">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#links">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia">Breve História sobre a origem do HTML <small><a href="#indice"><i>(Voltar)</i></a></small></h2>
+    
+    <p>O HTML foi criado por <strong>Tim Berners-Lee</strong> no início da década de 1990 no CERN. 
+      Ele desenvolveu essa linguagem para facilitar o compartilhamento de documentos 
+      de pesquisa entre cientistas. A primeira versão do HTML foi lançada em 1991, e 
+      desde então, passou por várias atualizações, com a versão mais recente sendo o HTML5,
+       introduzido em 2014. O HTML é essencial para a estruturação de páginas na web e é 
+       a base do desenvolvimento de conteúdo online.</p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <blockquote><i>“A web não está concluída, é apenas a ponta do iceberg. As novas mudanças irão balançar o mundo ainda mais.” - <strong>Tim Berners-Lee</strong></i></blockquote>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="diferenca">O que são e qual é diferença entre <i>Clients</i> e <i>Servers</i>? <small><a href="#indice"><i>(Voltar)</i></a></small></h2>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p>Clientes (Clients) e Servidores (Servers) são conceitos fundamentais em arquiteturas de rede 
+      e sistemas distribuídos. Aqui está uma explicação resumida de cada um e a diferença entre eles:
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+      <ol>
+         <li>
+            <strong>Clientes (Clients):</strong>
+            <ul>
+               <li><u>Definição:</u> Um cliente é um dispositivo, programa ou sistema que solicita serviços, recursos ou informações de um servidor.</li>
+               <li><u>Função:</u> Os clientes enviam requisições para servidores para obter dados, serviços ou realizar ações específicas.</li>
+               <li><u>Exemplos:</u> Navegadores da web, aplicativos móveis, clientes de email são exemplos comuns de clientes.</li>
+            </ul>
+         </li>
+         <br>
+         <li>
+            <strong>Servidores (Servers):</strong>
+            <ul>
+               <li><u>Definição:</u> Um servidor é um dispositivo, programa ou sistema que fornece serviços, recursos ou informações em resposta a solicitações de clientes.</li>
+               <li><u>Função:</u> Os servidores recebem as requisições dos clientes, processam-nas e fornecem as respostas apropriadas.</li>
+               <li><u>Exemplos:</u> Servidores web, servidores de email, servidores de banco de dados são exemplos comuns de servidores.</li>
+            </ul>
+         </li>
+         <br>
+         <li>
+            <strong>Diferença entre Clientes e Servidores:</strong>
+            <ul>
+               <li><u>Direção do Fluxo de Informações:</u> Os clientes enviam requisições para os servidores, e os servidores respondem fornecendo os recursos ou serviços solicitados.</li>
+               <li><u>Exemplos Práticos:</u> Se você acessa um site usando um navegador, o navegador é o cliente que solicita páginas ao servidor web que, por sua vez, é o servidor.</li>
+               <li><u>Arquitetura:</u> Os clientes geralmente têm uma arquitetura mais leve, voltada para a interação do usuário, enquanto os servidores tendem a ser mais robustos para gerenciar múltiplas requisições e oferecer serviços a vários clientes simultaneamente.</li>
+            </ul>
+         </li>
+      </ol>
+      </p>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="html-basico">Como é uma estrutura básica de um HTML? <small><a href="#indice"><i>(Voltar)</i></a></small></h2>
+
+    <p>A estrutura básica de um arquivo HTML é composta por elementos essenciais que definem a estrutura e o conteúdo de uma página web. Aqui está um exemplo simples:</p>
+
+    <pre style="background-color: whitesmoke;">
+      &lt;!DOCTYPE html&gt;
+      &lt;html lang="pt-br"&gt;
+      &lt;head&gt;
+          &lt;meta charset="UTF-8"&gt;
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+          &lt;title&gt;Código HTML de Exemplo&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+          &lt;h1&gt;Exemplo de Código HTML&lt;/h1&gt;
+          &lt;p&gt;Aqui está um trecho de código HTML:&lt;/p&gt;
+      &lt;/body&gt;
+      &lt;/html&gt;
+    </pre>
+
+    <ol>
+        <li><code>&lt;!DOCTYPE html&gt;</code>: Declaração do tipo de documento.</li>
+        <li><code>&lt;html lang="pt-br"&gt;</code>: Elemento raiz que engloba todo o conteúdo da página.</li>
+        <li><code>&lt;head&gt;</code>: Contém meta-informações sobre o documento.</li>
+        <ul>
+            <li><code>&lt;meta charset="UTF-8"&gt;</code>: Define o conjunto de caracteres como UTF-8.</li>
+            <li><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code>: Instruções sobre a escala e largura da página.</li>
+            <li><code>&lt;title&gt;</code>: Define o título da página.</li>
+        </ul>
+        <li><code>&lt;body&gt;</code>: Contém o conteúdo visível da página.</li>
+        <li>Outros elementos como <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, etc., para estruturar o conteúdo.</li>
+    </ol>
+
+    <h2 id="links">Links de referências <small><a href="#indice"><i>(Voltar)</i></a></small></h2>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="http://dio.me" target="_blank"> Aulas da DIO</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/HTML" target="_blank">Wikipedia</a></li>
     </ul>
 
 </body>
